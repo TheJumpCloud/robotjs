@@ -12,8 +12,7 @@
         ],
         'OTHER_LDFLAGS': [
           '-arch x86_64',
-          '-arch arm64',
-          '-sectcreate', '__CGPreLoginApp', '__cgpreloginapp', '/dev/null'
+          '-arch arm64'
         ]
       },
       'msvs_settings': {
