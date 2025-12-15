@@ -22,6 +22,7 @@ function bitmap(width, height, byteWidth, bitsPerPixel, bytesPerPixel, image)
 
 module.exports.screen.capture = function(x, y, width, height)
 {
+    console.log('captureScreen', x, y, width, height);
     //If coords have been passed, use them.
     if (typeof x !== "undefined" && typeof y !== "undefined" && typeof width !== "undefined" && typeof height !== "undefined")
     {
